@@ -1,0 +1,66 @@
+.outContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.formContainer {
+    margin-top: 10%;
+    padding: 20px;
+    height: 500px;
+    width: 500px;
+    background-color: #f0f0f0;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.form-control {
+    border: 1.5px solid gray;
+    margin: 10px 5px 5px 5px;
+}
+
+.heading {
+    margin-left: 35%;
+    color: rgb(42, 42, 42);
+    padding: 20px;
+    margin-bottom: 5%;
+    font-family: sans-serif;
+}
+
+.btn {
+    margin: 40px 5px 5px 5px;
+    width: 100%;
+}
+
+.quote {
+    margin: 30px 5px 5px 150px;
+    padding: 3px;
+}
+
+
+/* failure */
+
+.failure {
+    background-color: #ffe1e1;
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.success {
+    background-color: #cdcdcd;
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Heading {
+    font-size: 70px;
+}
+
+.Msg {
+    font-size: 30px;
+}
